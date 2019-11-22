@@ -1,10 +1,9 @@
 body {
-  background: #093028;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0099F7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: whitesmoke;
-  font-family: 'Gabriela', serif;
-
+  font-family: 'Lemon', cursive;
   font-size: 16px;
   line-height: 1;
 }
@@ -21,13 +20,12 @@ body {
 }
 
 textarea {
-  font-family: 'Gabriela', serif;
-
+  font-family: 'Lemon', cursive;
   background: transparent;
   border: none;
   resize: none;
   color: whitesmoke;
-  border-left: 1px solid black;
+  border-left: 10px solid black;
   padding: 10px;
 }
 
