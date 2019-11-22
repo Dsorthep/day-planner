@@ -1,14 +1,32 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #093028;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: whitesmoke;
+  font-family: 'Gabriela', serif;
+
   font-size: 16px;
   line-height: 1;
 }
+.display-3{
+  color: whitesmoke;
 
-textarea{
+}
+.lead {
+  color: whitesmoke;
+}
+
+.btn {
+  color: whitesmoke;
+}
+
+textarea {
+  font-family: 'Gabriela', serif;
+
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: whitesmoke;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -18,7 +36,7 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px;
 }
 
 .description{

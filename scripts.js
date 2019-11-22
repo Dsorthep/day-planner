@@ -1,5 +1,5 @@
 
-let currentTime = moment().format('MMMM Do YYYY');
+let currentTime = moment().format('MMMM Do, YYYY');
 console.log(currentTime);
 
 function displayDate () {
@@ -7,4 +7,12 @@ function displayDate () {
 };
 displayDate();
 
+
+document.getElementById("button-addon2").addEventListener("click", function(){
+    const input = document.getElementById("input");
+    localStorage.setItem("saved-input", input);
+    console.log(input);
+})
+
+//const input = document.getElementById()
 
