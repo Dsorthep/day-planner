@@ -12,3 +12,5 @@ There should be a save button for the user to save their planned events/appts fo
 The input boxes should change colors to notify the user of hours/events that have passed during the day.
 
 The input should be stored to local storage as well.
+
+https://dsorthep.github.io/day-planner/
